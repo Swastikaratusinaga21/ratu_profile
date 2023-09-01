@@ -1,0 +1,270 @@
+body{
+    background-color: #54d595;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+  }
+
+.container2 {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: #faf6f6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .logo-text{
+    font-style: italic;
+    color: #02572d;
+  }
+    
+  li a:hover:not(.active) {
+    color: #016b35;
+  }
+    
+  .active {
+    color: black;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+  }
+
+  img { 
+    width:100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .content1 {
+      display:grid;
+      grid-template-columns: 66% auto;
+      padding: 0 48px 48px 48px;
+  }
+  
+  .text1 {
+    margin: 0 64px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #tag {
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+  }
+  
+  mark{
+    background: #02572d;
+    color: white;
+    padding: 5px 5px;
+  }
+
+  img { 
+    width:100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: white;
+    padding: 0 12%;
+  }
+
+  .content21 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: #54d595;
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: rgb(246, 246, 246);
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+  }
+
+  .card1 {
+    background-color:#50c98d;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    background-color: #54d595;
+  }
+  
+  .card1:hover {
+    background-color: white;
+  }
+  
+  .content3 {
+    padding: 1% 12% 6% 12%;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .content32 {
+    display:grid;
+    grid-template-columns: 40% 60%;
+    grid-column: auto;
+    padding-bottom: 5%;
+  }
+  
+  .text2 {
+    font-size: 18px;
+    display: flexbox;
+    align-items: center;
+    padding-left: 10px;
+
+  }
+
+  .text21 {
+    font-size: 16.5px;
+    display: flex;
+    align-items: top;
+  }
+  
+
+  .content5 {
+    padding: 6% 12%;
+    height: 75%;
+    width: 75%; 
+    align-items: center;
+    background-color: white;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  div.gallery {
+    background-color:  #f7f8f9;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px 15px 30px 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 12px;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 2px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer-main {
+    background-color:#016b35;
+    padding: 24px 60px;
+    color: white;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .footer-grid {
+      padding-left: 20px;
+    }
+  }
+  
+  .footer-grid p {
+    margin: 10px 0;
+  }
+
+  a {color: pink;}
+  a:hover {color: #016b35;}
+  a:visited {color: 014723;}
+
+  .b{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+  }
+
+  .b2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .c{
+    padding-left: 5%;
+    padding-right: 40%;
+    text-align: justify;
+  }
